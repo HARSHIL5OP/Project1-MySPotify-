@@ -1,0 +1,122 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.brand-logo{
+    width: 40px;
+    padding: 0px 8px;
+    
+}
+
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: folder;
+    font-size: 1.2rem;
+}
+
+nav ul{
+    list-style-type: none;
+    border-bottom: 2px solid white;
+    padding: 3px;
+    display: flex;
+    align-items: center;  
+    height: 4rem;
+    background-color: black;
+    color: white;
+    align-items: center;
+    font-size: 80%;  
+    width: 100vw;
+}
+
+nav ul li{
+    padding: 0px 12px;
+}
+
+nav .it:hover{
+    background-color: white;
+    color: black;
+}
+
+ .list{
+    min-height: 100vh;
+    width: 100vw;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    background-image: url(anuv.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: 238px -27px;
+    font-size: 80%;  
+}
+ .list ul li{
+    list-style-type: none;
+    background-color: white;
+    color: black;
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid black;
+    border-radius: 40px;
+    width: 50%;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+      
+} .list ul li .img-lst{
+    width: 30%;
+} .list ul li .text-lst{
+    width: 50%;
+} .list ul li .time-lst{
+    width: 20%;
+}
+ .list img{
+    width: 40px;
+    border-radius: 50%;
+}
+
+.bottom{
+    margin: 10px 0px;
+    background-color: rgb(20, 20, 20);
+    color: white;
+    height: 5rem;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 3px;
+}
+
+.bottom .icons{
+    /* background-color: red; */
+    width: 25vw;
+    display: flex;
+    justify-content: space-around;
+    font-size: 1.1rem;
+}
+
+.bottom input{
+    width: 70vw;
+}
+ i{
+    font-size: 1.2rem;
+}
+ i:hover{
+    color: darkslategray;
+}
+.bottom i{
+    font-size: 1.5rem;
+    color: white;
+   
+}
+
+.bottom i:hover{
+   
+    color: black;
+}
